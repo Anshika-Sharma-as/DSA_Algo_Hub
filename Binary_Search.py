@@ -1,3 +1,6 @@
+""" Time Complexity:
+        Best Case - O(log n)
+        Worst Case - O(1) """
 def binary_search(db,value):
     start = 0
     end = len(db)-1
