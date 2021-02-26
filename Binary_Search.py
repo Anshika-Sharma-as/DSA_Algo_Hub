@@ -15,6 +15,17 @@ def binary_search(db,value):
         print("Start:",start , "End:",end,"Middle:",middle)
     
     if db[middle]==value:
-        print("we found at index",middle)
+        print("Item found at index",middle)
     else:
         print("Oops! Item Not Found")
+        
+ """
+ Example:-
+           db = [10,20,30,40,50,60,70,80,90,100]
+           
+           binary_search(db,10) //Called function
+                
+           Output:-   Start: 0 End: 3 Middle: 1
+                      Start: 0 End: 0 Middle: 0
+                      Item found at index 0
+ """
